@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  height: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.head-logo,
+.head-nav {
+  width: 50%;
+}
+
+.head-logo {
+  width: 30%;
+}
+
+.head-nav {
+  width: auto;
+}
+.head-nav nav {
+  width: 100%;
+}
+
+header ul {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  margin: 2rem 0;
+  font-size: 0.85rem;
+}
+header ul a {
+  padding: 20px;
+  color: black;
+  text-transform: uppercase;
+}
+header ul a:hover, header ul a.active {
+  border-bottom: 5px solid #0C7CEC;
+  padding-bottom: 48px;
+  border-bottom: 5px solid #0C7CEC;
+}
+
+footer {
+  height: 500px;
+  background-image: url(../assets/img/footer-bg.jpg);
+  background-size: cover;
+}
+
+/* @import '../assets/style/vars.scss'; */
+.up-fot {
+  height: 500px;
+}
+
+.listy {
+  display: flex;
+  width: 50%;
+  padding: 5px;
+}
+.listy a,
+.listy div {
+  flex-basis: calc(100% / 3);
+  text-transform: capitalize;
+}
+.listy h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding-top: 1rem;
+  color: white;
+}
+.listy a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.footer-logo {
+  width: 50%;
+  display: flex;
+  background-image: url(/img/dc-logo-bg.png);
+  background-repeat: no-repeat;
+}
+
+.down-fot {
+  height: 150px;
+  padding: 50px 0;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #303030;
+}
+
+.ft-but {
+  width: 50%;
+}
+.ft-but button {
+  background-color: #303030;
+  border: 2px solid #0C7CEC;
+  padding: 15px;
+}
+.ft-but button a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.socials {
+  width: 50%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.socials ul {
+  list-style: none;
+}
+.socials ul li {
+  padding: 5px;
+  display: inline;
+}
+
+.socials h5 {
+  padding-right: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #0C7CEC;
+}
